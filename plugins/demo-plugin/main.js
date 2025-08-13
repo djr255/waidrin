@@ -6,7 +6,7 @@ export default class DemoPlugin {
 
   async onLocationChange(newLocation, _state) {
     if (this.settings.loggingEnabled) {
-      console.log(`Location changed to ${newLocation.name}`);
+      console.log(`Location changed to ${newLocation.name}`:${location.description});
     }
   }
 }
